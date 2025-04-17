@@ -1,4 +1,4 @@
-import Testimonials from "./sections/Testimonials";
+// import Testimonials from "./sections/Testimonials";
 import Footer from "./sections/Footer";
 import Contact from "./sections/Contact";
 import TechStack from "./sections/TechStack";
@@ -14,11 +14,11 @@ const App = () => (
     <Navbar />
     <Hero />
     <ShowcaseSection />
-    <LogoShowcase />
-    <FeatureCards />
+    {/* <LogoShowcase /> */}
+    {/* <FeatureCards /> */}
     <Experience />
     <TechStack />
-    <Testimonials />
+    {/* <Testimonials /> */}
     <Contact />
     <Footer />
   </>

@@ -106,7 +106,7 @@ const Experience = () => {
                 <div className="xl:w-2/6">
                   <GlowCard card={card}>
                     <div>
-                      <img src={card.imgPath} alt="exp-img" />
+                    <h2 className="text-xl font-semibold">{card.cname}</h2>
                     </div>
                   </GlowCard>
                 </div>
