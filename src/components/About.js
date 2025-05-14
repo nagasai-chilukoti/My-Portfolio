@@ -44,7 +44,7 @@ const About = () => {
     
 
     {/* Third Section */}
-    <div className="child">
+    <div align='center'>
       <div className="w-full rounded-3xl sm:h-[326px] h-fit flex justify-center items-center">
         <Globe
           height={250}
