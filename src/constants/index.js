@@ -2,6 +2,36 @@
 
 export const myProjects = [
   {
+    title: 'Personal Portfolio',
+    subdesc: `Developed a responsive and visually appealing personal portfolio website using React.js and JavaScript to showcase my projects, skills, and experience. Integrated reusable components, social media links, and a dynamic project section for scalability.`,
+    // subdesc:
+    //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+    href: "https://ticket-booking-ochre.vercel.app/",
+    texture: '/textures/project/project2.mp4',
+    // image:'/assets/project-2.jpg',
+    logo: '/assets/project3.jpeg',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'js',
+        path: 'assets/js.svg',
+      },
+    
+    ],
+  },
+ 
+  {
     title: 'Iris Tumor Detection Model',
     subdesc: 'As part of this project, we developed a model using Convolutional Neural Networks (CNN) to detect tumors in the iris (the colored part of the eye).',
     
@@ -75,36 +105,7 @@ export const myProjects = [
       // },
     ],
   },
-  {
-    title: 'Personal Portfolio',
-    subdesc: `Developed a responsive and visually appealing personal portfolio website using React.js and JavaScript to showcase my projects, skills, and experience. Integrated reusable components, social media links, and a dynamic project section for scalability.`,
-    // subdesc:
-    //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: "https://my-portfolio-sable-three-52.vercel.app/",
-    texture: '/textures/project/project2.mp4',
-    // image:'/assets/project-2.jpg',
-    logo: '/assets/project3.jpeg',
-    logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    },
-    spotlight: '/assets/spotlight2.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'js',
-        path: 'assets/js.svg',
-      },
-    
-    ],
-  },
- 
+  
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
