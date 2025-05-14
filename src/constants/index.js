@@ -80,7 +80,7 @@ export const myProjects = [
     subdesc: `Developed a responsive and visually appealing personal portfolio website using React.js and JavaScript to showcase my projects, skills, and experience. Integrated reusable components, social media links, and a dynamic project section for scalability.`,
     // subdesc:
     //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: "https://ticket-booking-ochre.vercel.app/",
+    href: "https://my-portfolio-sable-three-52.vercel.app/",
     texture: '/textures/project/project2.mp4',
     // image:'/assets/project-2.jpg',
     logo: '/assets/project3.jpeg',
