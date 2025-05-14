@@ -16,6 +16,7 @@ const About = () => {
 
   return (
    <section className="c-space my-20" id="about">
+    <h1>About Me</h1>
   <div class='parent'>
     {/* First Section */}
     <div class='child' >
