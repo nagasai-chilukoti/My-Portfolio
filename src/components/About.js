@@ -39,7 +39,7 @@ const About = () => {
         className="w-full sm:h-[276px] h-fit object-contain rounded-xl"
       />
       <div className="text-center mt-6">
-        <h3 className="grid-headtext text-2xl font-semibold text-white">My Tech Stack</h3>
+        <h3 className="grid-headtext text-2xl font-semibold text-white">Tech Stack</h3>
       </div>
     </div>
     
