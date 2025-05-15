@@ -5,6 +5,8 @@ import { myProjects } from '../constants/index.js'; // Ensure correct import pat
 function Projects() {
   return (
     <div>
+    <br/>
+    <br/>
   <h1>Projects</h1>
 
   <div className="project-wrapper">
