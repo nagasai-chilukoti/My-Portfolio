@@ -232,6 +232,7 @@ nav a {
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
+
 nav a:hover {
   color: #ffffff;
   text-shadow: 0 0 10px rgba(0, 150, 255, 0.7);
@@ -244,6 +245,21 @@ nav a.active {
   padding-bottom: 5px;
   text-shadow: 0 0 8px rgba(0, 150, 255, 0.8);
 }
+.primary-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: bbb; /* Or your desired background */
+  z-index: 1000; /* To stay above other content */
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional shadow */
+}
+
+
+
 
 /* Smooth Transitions */
 * {
