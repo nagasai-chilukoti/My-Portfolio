@@ -7,7 +7,7 @@ function Navbar() {
 
   const navlinkStyles = ({ isActive }) => {
     return {
-      textDecoration: isActive ? "none" : "underline",
+      
       fontWeight: isActive ? "bold" : "normal",
       
     };
