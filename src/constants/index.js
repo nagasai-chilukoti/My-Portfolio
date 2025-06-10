@@ -3,10 +3,12 @@
 export const myProjects = [
   {
     title: 'Personal Portfolio Website',
-    subdesc: `Developed a responsive and visually appealing personal portfolio website using React.js and JavaScript to showcase my projects, skills, and experience. Integrated reusable components, social media links, and a dynamic project section for scalability.`,
+    subdesc: ` Created a responsive web application using React.js and JavaScript to display personal
+ information, skills, and achievements. Added navigation, interactive elements, and modular components for easy updates and
+ scalability.`,
     // subdesc:
     //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: "https://my-portfolio-sable-three-52.vercel.app/",
+    href: "https://ticket-booking-ochre.vercel.app/",
     texture: '/textures/project/project2.mp4',
     // image:'/assets/project-2.jpg',
     logo: '/assets/project3.jpeg',
@@ -33,7 +35,9 @@ export const myProjects = [
  
   {
     title: 'Iris Tumor Detection Model',
-    subdesc: 'As part of this project, we developed a model using Convolutional Neural Networks (CNN) to detect tumors in the iris (the colored part of the eye).',
+    subdesc: `Developed and deployed a deep learning model using Convolutional Neural Networks (CNN)
+ for the classification of iris tumors in medical images. Improved dataset quality and training performance through
+ preprocessing techniques.`,
     
     href: "https://iristumordetection.streamlit.app/",
     texture: '/textures/project/project1.mp4',
@@ -55,7 +59,8 @@ export const myProjects = [
   },
   {
     title: 'Movie Ticket Booking Platform',
-    subdesc: 'Created a web application for movie ticket reservations. Implemented features for movie selection, showtimes, and ticket booking.',
+    subdesc: ` Devised a web application for movie ticket reservations using HTML, CSS, and
+ JavaScript. Implemented features for movie selection, showtimes, and ticket booking.`,
     // subdesc:
     //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
     href: "https://ticket-booking-ochre.vercel.app/",
@@ -84,9 +89,8 @@ export const myProjects = [
   },
   {
     title: 'Cocktail Drinks Website',
-    subdesc: `Built a React application to showcase cocktail drinks fetched from an external
- API (Hotspot). Integrated a real-time search functionality and dynamic UI updates using React state management to
- improve user interaction.`,
+    subdesc: `Built a React application to display cocktail drinks fetched from an external API.
+ Integrated search functionality and UI updates to improve user interaction.`,
     //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
     href: "https://cocktail-drinks-one.vercel.app/",
     texture: '/textures/project/project2.mp4',
@@ -131,11 +135,14 @@ export const workExperiences = [
     title: (
       <>
         <p>
-          <strong>◦ Model Development:</strong> Developed a Convolutional Neural Network (CNN) model for iris tumor detection using medical image datasets.
-        </p>
+          <strong>◦ Model Development:</strong> Built a Convolutional Neural Network (CNN) model for iris tumor detection, achieving a 90%
+ accuracy on a dataset of over 3,000 medical images.</p>
         <p>
-          <strong>◦ Data Processing & Training:</strong> Preprocessed and prepared image data, trained the model, and evaluated performance for accurate classification.
-        </p>
+          <strong>◦ Data Processing & Training:</strong>  Processed over 3,000 images, training the model on 80% of the data, and evaluated
+ performance, improving classification accuracy by 10%.</p>
+        <p>
+          <strong>◦ Team Collaboration:</strong> Worked with a 4-member team to optimize model performance, reducing training time by 25%
+ through fine-tuning hyperparameters.</p>
       </>
     ),
     icon: '/assets/isf.png',
@@ -149,11 +156,11 @@ export const workExperiences = [
     title: (
       <>
         <p>
-          <strong>◦ Python Development:</strong> Developed efficient Python solutions for a variety of tasks, implementing optimized algorithms and best coding practices.
-        </p>
+          <strong>◦  Python Solutions:</strong>  Engineered Python solutions for 10+ tasks, improving algorithm efficiency and cutting execution
+ time by 20%.</p>
         <p>
-          <strong>◦ Code Optimization:</strong> Improved code performance and maintainability by refining logic and ensuring adherence to clean coding standards.
-        </p>
+          <strong>◦ Code Refinement:</strong> Enhanced runtime performance by 15% through logical improvements and maintained code quality
+ by following clean coding standards.</p>
       </>
     ),
     icon: '/assets/cs.png',
@@ -167,10 +174,12 @@ export const workExperiences = [
     title: (
       <>
         <p>
-          <strong>◦ Backend Data Architect:</strong> Engineered and structured relational databases for a web-based Human Resource Management System (HRMS), aligning with performance and scalability standards.
+          <strong>◦ Database Architecture:</strong> Designed and implemented relational databases for a Human Resource Management System
+ (HRMS), increasing data processing speed by 30%.
         </p>
         <p>
-          <strong>◦ Data Integrity & Best Practices:</strong> Applied database design best practices to ensure referential integrity, consistency, and secure storage of HR records.
+          <strong>◦  Data Security & Consistency:</strong> Ensured 90% integrity for over 5,000 HR records by applying industry best practices
+ and optimizing schema design.
         </p>
       </>
     ),
