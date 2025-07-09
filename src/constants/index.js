@@ -39,7 +39,7 @@ export const myProjects = [
  for the classification of iris tumors in medical images. Improved dataset quality and training performance through
  preprocessing techniques.`,
     
-    href: "https://iristumordetection.streamlit.app/",
+    href: "https://iris-tumor-detector.streamlit.app/",
     texture: '/textures/project/project1.mp4',
     logo: '/assets/iris.png',
     logoStyle: {
