@@ -2,10 +2,61 @@
 
 export const myProjects = [
   {
+    title: 'Movie Ticket Booking Platform',
+    subdesc: ` `,
+    // subdesc:
+    //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+    href: "https://flimflexmovies.lovestoblog.com/login.php",
+    texture: '/textures/project/project2.mp4',
+    // image:'/assets/project-2.jpg',
+    logo: '/assets/project-2.jpg',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/js.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/css.png',
+      },
+   
+    ],
+  },
+ 
+  {
+    title: 'Iris Tumor Detection Model',
+    subdesc: ``,
+    
+    href: "https://iris-tumor-detector.streamlit.app/",
+    texture: '/textures/project/project1.mp4',
+    logo: '/assets/iris.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Python',
+        path: '/assets/python.svg',
+      },
+   
+    ],
+  },
+   {
+    
     title: 'Personal Portfolio Website',
-    subdesc: ` Created a responsive web application using React.js and JavaScript to display personal
- information, skills, and achievements. Added navigation, interactive elements, and modular components for easy updates and
- scalability.`,
+    subdesc: ` `,
     // subdesc:
     //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
     href: "https://my-portfolio-sable-three-52.vercel.app/",
@@ -33,64 +84,10 @@ export const myProjects = [
     ],
   },
  
-  {
-    title: 'Iris Tumor Detection Model',
-    subdesc: `Developed and deployed a deep learning model using Convolutional Neural Networks (CNN)
- for the classification of iris tumors in medical images. Improved dataset quality and training performance through
- preprocessing techniques.`,
-    
-    href: "https://iris-tumor-detector.streamlit.app/",
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/iris.png',
-    logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
-    },
-    spotlight: '/assets/spotlight1.png',
-    tags: [
-      {
-        id: 1,
-        name: 'Python',
-        path: '/assets/python.svg',
-      },
-   
-    ],
-  },
-  {
-    title: 'Movie Ticket Booking Platform',
-    subdesc: ` Devised a web application for movie ticket reservations using HTML, CSS, and
- JavaScript. Implemented features for movie selection, showtimes, and ticket booking.`,
-    // subdesc:
-    //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: "https://ticket-booking-ochre.vercel.app/",
-    texture: '/textures/project/project2.mp4',
-    // image:'/assets/project-2.jpg',
-    logo: '/assets/project-2.jpg',
-    logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    },
-    spotlight: '/assets/spotlight2.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/js.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/css.png',
-      },
-   
-    ],
-  },
+  
   {
     title: 'Cocktail Drinks Website',
-    subdesc: `Built a React application to display cocktail drinks fetched from an external API.
- Integrated search functionality and UI updates to improve user interaction.`,
+    subdesc: ``,
     //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
     href: "https://cocktail-drinks-one.vercel.app/",
     texture: '/textures/project/project2.mp4',
@@ -187,5 +184,6 @@ export const workExperiences = [
     animation: 'clapping',
   },
 ];
+
 
 
