@@ -2,7 +2,7 @@
 
 export const myProjects = [
   {
-    title: 'Movie Ticket Booking Platform',
+    title: 'Movie Booking Platform',
     subdesc: ` `,
     // subdesc:
     //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
@@ -32,7 +32,7 @@ export const myProjects = [
   },
  
   {
-    title: 'Iris Tumor Detection Model',
+    title: 'Iris Tumor Detector',
     subdesc: ``,
     
     href: "https://iris-tumor-detector.streamlit.app/",
@@ -77,7 +77,7 @@ export const myProjects = [
   },
    {
     
-    title: 'Personal Portfolio Website',
+    title: 'Personal Portfolio',
     subdesc: ` `,
     // subdesc:
     //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
@@ -206,6 +206,7 @@ export const workExperiences = [
     animation: 'clapping',
   },
 ];
+
 
 
 
