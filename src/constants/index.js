@@ -35,7 +35,7 @@ export const myProjects = [
     title: 'Iris Tumor Detector',
     subdesc: ``,
     
-    href: "https://iris-tumor-detector.streamlit.app/",
+    href: "https://iris-tumors-detector.streamlit.app/",
     texture: '/textures/project/project1.mp4',
     logo: '/assets/iris.png',
     logoStyle: {
@@ -206,6 +206,7 @@ export const workExperiences = [
     animation: 'clapping',
   },
 ];
+
 
 
 
