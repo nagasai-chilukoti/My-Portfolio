@@ -3,7 +3,8 @@
 export const myProjects = [
   {
     title: 'Movie Booking Platform',
-    subdesc: ` `,
+    subdesc: ` Engineered a movie ticket booking system using PHP and MySQL with seat selection,
+ user ratings, and automated email confirmations. `,
     // subdesc:
     //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
     href: "https://flimflexmovies.lovestoblog.com/login.php",
@@ -33,7 +34,8 @@ export const myProjects = [
  
   {
     title: 'Iris Tumor Detector',
-    subdesc: ``,
+    subdesc: `Developed and deployed a CNN model for the classification of iris tumors in medical images.
+ Enhanced dataset quality and model performance with high accuracy through preprocessing techniques.`,
     
     href: "https://iris-tumors-detector.streamlit.app/",
     texture: '/textures/project/project1.mp4',
@@ -55,7 +57,8 @@ export const myProjects = [
   },
   {
     title: 'Veteran Talent Finder',
-    subdesc: ``,
+    subdesc: ` Designed a GitHub talent search tool to identify contributors by domain and skills, extracting
+ details including name, location, profile URL, experience, and repository count for precise candidate sourcing.`,
     
     href: "https://veteran-talent-finder.streamlit.app/",
     texture: '/textures/project/project1.mp4',
@@ -78,7 +81,8 @@ export const myProjects = [
    {
     
     title: 'Personal Portfolio',
-    subdesc: ` `,
+    subdesc: ` Created a deployed a portfolio website to showcase my professional background, technical
+ skills, projects and achievements.`,
     // subdesc:
     //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
     href: "https://my-portfolio-sable-three-52.vercel.app/",
@@ -107,30 +111,30 @@ export const myProjects = [
   },
  
   
-  {
-    title: 'Cocktail Drinks Website',
-    subdesc: ``,
-    //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: "https://cocktail-drinks-one.vercel.app/",
-    texture: '/textures/project/project2.mp4',
-    // image:'/assets/project-2.jpg',
-    logo: '/assets/project-4.png',
-    logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    },
-    spotlight: '/assets/spotlight2.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
+  // {
+  //   title: 'Cocktail Drinks Website',
+  //   subdesc: ``,
+  //   //   'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+  //   href: "https://cocktail-drinks-one.vercel.app/",
+  //   texture: '/textures/project/project2.mp4',
+  //   // image:'/assets/project-2.jpg',
+  //   logo: '/assets/project-4.png',
+  //   logoStyle: {
+  //     backgroundColor: '#13202F',
+  //     border: '0.2px solid #17293E',
+  //     boxShadow: '0px 0px 60px 0px #2F6DB54D',
+  //   },
+  //   spotlight: '/assets/spotlight2.png',
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: 'React.js',
+  //       path: '/assets/react.svg',
+  //     },
     
    
-    ],
-  },
+  //   ],
+  // },
   
 ];
 
@@ -206,6 +210,7 @@ export const workExperiences = [
     animation: 'clapping',
   },
 ];
+
 
 
 
